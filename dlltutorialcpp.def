@@ -1,0 +1,6 @@
+LIBRARY dlltutorialcpp
+EXPORTS
+	Add
+	Add1
+	Func
+	GetString

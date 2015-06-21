@@ -1,0 +1,31 @@
+routine Add
+  minarg=3
+  maxarg=3
+  stackpop=called
+  module=dlltutorialcpp
+  returns=long;
+arg 1 input byvalue format=IB4;
+arg 2 input byvalue format=IB4;
+arg 3 update format=IB4;
+routine Add1
+  minarg=2
+  maxarg=2
+  stackpop=called
+  module=dlltutorialcpp
+  returns=long;
+arg 1 input byvalue fdstart format=IB4;
+arg 2 input byvalue format=IB4;
+routine Func
+  minarg=3
+  maxarg=3
+  stackpop=called
+  module=dlltutorialcpp;
+arg 1 update fdstart format=IB4;
+arg 2 update format=RB8;
+arg 3 update format=$CHAR2;
+routine GetString
+  minarg=1
+  maxarg=1
+  stackpop=called
+  module=dlltutorialcpp;
+arg 1 update format=$CHAR21;
